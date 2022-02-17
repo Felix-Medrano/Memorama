@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7b1d9c97ebfda74c9cf8ac980c6daf9, type: 3}
+  m_Name: BackPokerDB
+  m_EditorClassIdentifier: 
+  backPokerImgs:
+  - id: 0
+    imgBack: {fileID: 21300000, guid: 62309b1ec08c1f14bb3bd7b80dd2baf7, type: 3}
+  - id: 1
+    imgBack: {fileID: 21300000, guid: eb16b21282b906a49b05d804d81e8d29, type: 3}
+  - id: 2
+    imgBack: {fileID: 21300000, guid: 6fb1c609932da5f40babdb23732c260e, type: 3}

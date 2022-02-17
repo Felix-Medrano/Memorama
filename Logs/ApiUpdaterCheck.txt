@@ -1,0 +1,40 @@
+[api-updater (non-obsolete-error-filter)] 16/02/2022 05:51:29 p. m. : Starting C:/Users/sckro/Desktop/Proyectos/Unity/2020.3.25f1/Editor/Data/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 2048.1119ms
+moved types parse time: 200ms
+candidates parse time : 5ms
+C# parse time         : 1142ms
+candidates check time : 241ms
+console write time    : 2ms
+
+[api-updater (non-obsolete-error-filter)] 16/02/2022 05:51:35 p. m. : Starting C:/Users/sckro/Desktop/Proyectos/Unity/2020.3.25f1/Editor/Data/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 705.0219ms
+moved types parse time: 294ms
+candidates parse time : 8ms
+C# parse time         : 809ms
+candidates check time : 178ms
+console write time    : 2ms
+
+[api-updater (non-obsolete-error-filter)] 16/02/2022 05:59:10 p. m. : Starting C:/Users/sckro/Desktop/Proyectos/Unity/2020.3.25f1/Editor/Data/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 265.9973ms
+moved types parse time: 508ms
+candidates parse time : 5ms
+C# parse time         : 743ms
+candidates check time : 127ms
+console write time    : 1ms
+
+[api-updater (non-obsolete-error-filter)] 16/02/2022 05:59:30 p. m. : Starting C:/Users/sckro/Desktop/Proyectos/Unity/2020.3.25f1/Editor/Data/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 381.0039ms
+moved types parse time: 352ms
+candidates parse time : 3ms
+C# parse time         : 1071ms
+candidates check time : 231ms
+console write time    : 4ms
+
