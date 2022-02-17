@@ -15,11 +15,11 @@ C:/Users/sckro/Desktop/Proyectos/Unity/Memorama
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-1045
+12219
 Successfully changed project path to: C:/Users/sckro/Desktop/Proyectos/Unity/Memorama
 C:/Users/sckro/Desktop/Proyectos/Unity/Memorama
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 2953.77 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 278.26 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.25f1 (9b9180224418)
 [Subsystems] Discovering subsystems at path C:/Users/sckro/Desktop/Proyectos/Unity/2020.3.25f1/Editor/Data/Resources/UnitySubsystems
@@ -35,5 +35,694 @@ Initialize mono
 Mono path[0] = 'C:/Users/sckro/Desktop/Proyectos/Unity/2020.3.25f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Users/sckro/Desktop/Proyectos/Unity/2020.3.25f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Users/sckro/Desktop/Proyectos/Unity/2020.3.25f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56540
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56568
 Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Users/sckro/Desktop/Proyectos/Unity/2020.3.25f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Users/sckro/Desktop/Proyectos/Unity/2020.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.022425 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 193.60 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  6.616 seconds
+Domain Reload Profiling:
+	ReloadAssembly (6617ms)
+		BeginReloadAssembly (529ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (5423ms)
+			LoadAssemblies (510ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (3332ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (254ms)
+			SetupLoadedEditorAssemblies (732ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (24ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (194ms)
+				BeforeProcessingInitializeOnLoad (51ms)
+				ProcessInitializeOnLoadAttributes (388ms)
+				ProcessInitializeOnLoadMethodAttributes (73ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.018591 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 189.13 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  6.635 seconds
+Domain Reload Profiling:
+	ReloadAssembly (6638ms)
+		BeginReloadAssembly (671ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (32ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (83ms)
+		EndReloadAssembly (5719ms)
+			LoadAssemblies (500ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1712ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (301ms)
+			SetupLoadedEditorAssemblies (2321ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (189ms)
+				BeforeProcessingInitializeOnLoad (817ms)
+				ProcessInitializeOnLoadAttributes (1135ms)
+				ProcessInitializeOnLoadMethodAttributes (126ms)
+				AfterProcessingInitializeOnLoad (38ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (46ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.37 seconds
+Refreshing native plugins compatible for Editor in 1.21 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2204 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.0 MB.
+System memory in use after: 96.1 MB.
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 2642.
+Total: 8.887700 ms (FindLiveObjects: 0.625500 ms CreateObjectMapping: 0.458900 ms MarkObjects: 7.664700 ms  DeleteObjects: 0.135100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Script/Card/CardController.cs
+  artifactKey: Guid(cc0a67b60e4b1f44a98fafbf994d12bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/Card/CardController.cs using Guid(cc0a67b60e4b1f44a98fafbf994d12bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1acdf4dee2ef2cdab288dce73247bf0') in 0.238825 seconds 
+  Import took 0.263894 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2097.565742 seconds.
+  path: Assets/Images/Poker/Front/As_1.png
+  artifactKey: Guid(41c72da5292881047bfd4a38f85cf973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Poker/Front/As_1.png using Guid(41c72da5292881047bfd4a38f85cf973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8d80ca4c13f46468d750eb1270a7cf7') in 0.496763 seconds 
+  Import took 1.206722 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001257 seconds.
+  path: Assets/Images/Poker/Front/As_8.png
+  artifactKey: Guid(139e6dd8b33bbba4bbd230c4b24d53b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Poker/Front/As_8.png using Guid(139e6dd8b33bbba4bbd230c4b24d53b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '058e744bfdc5a5c6a59f5dd07b6c81d2') in 0.092838 seconds 
+  Import took 0.233947 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000452 seconds.
+  path: Assets/Images/Poker/Front/As_4.png
+  artifactKey: Guid(059778f105aa452428c9df1615f5656c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Poker/Front/As_4.png using Guid(059778f105aa452428c9df1615f5656c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b67ffd3d17a1833d264996544fcb5143') in 0.049402 seconds 
+  Import took 0.073767 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000454 seconds.
+  path: Assets/Images/Poker/Front/As_6.png
+  artifactKey: Guid(53805404046abff45950d3dac4afdbd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Poker/Front/As_6.png using Guid(53805404046abff45950d3dac4afdbd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f39fcd6705886fc21ba844e78025ec03') in 0.121213 seconds 
+  Import took 0.134954 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000572 seconds.
+  path: Assets/Images/Poker/Front/As_3.png
+  artifactKey: Guid(1f62c3af01ebc8348bc8e39bf9a0a527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Poker/Front/As_3.png using Guid(1f62c3af01ebc8348bc8e39bf9a0a527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a88755a546759d70b09ca117db0a47ea') in 0.064851 seconds 
+  Import took 0.073751 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Images/Poker/Front/As_7.png
+  artifactKey: Guid(c5bc6a80fc1c89d45a9b6924132d6d3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Poker/Front/As_7.png using Guid(c5bc6a80fc1c89d45a9b6924132d6d3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c41d425cc53a16b8d5f74dbf8e40855b') in 0.139178 seconds 
+  Import took 0.162096 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000457 seconds.
+  path: Assets/Images/Poker/Front/As_10.png
+  artifactKey: Guid(e3c46b3ac52b24b478c7ff4a599e6f48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Poker/Front/As_10.png using Guid(e3c46b3ac52b24b478c7ff4a599e6f48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5e0daf454cd7c30ee7c3c04999c4e1b') in 0.202502 seconds 
+  Import took 0.213681 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000374 seconds.
+  path: Assets/Images/Poker/Front/As_Q.png
+  artifactKey: Guid(5e7ae9c41a82efb418a0b8e259335c1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Poker/Front/As_Q.png using Guid(5e7ae9c41a82efb418a0b8e259335c1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf6c52704dd6f175ea9df924eb4ca608') in 0.067423 seconds 
+  Import took 0.100732 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000411 seconds.
+  path: Assets/Images/Poker/Front/As_J.png
+  artifactKey: Guid(201bfad4d05419e4cae76acd91bb604c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Poker/Front/As_J.png using Guid(201bfad4d05419e4cae76acd91bb604c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b63c5403ec3bbe925064d72b491d17a') in 0.864640 seconds 
+  Import took 0.893734 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002508 seconds.
+  path: Assets/Images/Poker/Front/As_K.png
+  artifactKey: Guid(13c13cc271b583a49991e6b18a5f8ffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Poker/Front/As_K.png using Guid(13c13cc271b583a49991e6b18a5f8ffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b151c4fdaaad93c9a8bf7bd7e6073927') in 0.078961 seconds 
+  Import took 0.104706 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000943 seconds.
+  path: Assets/Images/Poker/Front/As_5.png
+  artifactKey: Guid(863751cadebb2d24e83d5119227a7039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Poker/Front/As_5.png using Guid(863751cadebb2d24e83d5119227a7039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '129552a30ab923ba06524e8dd7fa42ad') in 0.294621 seconds 
+  Import took 0.325909 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000460 seconds.
+  path: Assets/Images/Poker/Front/As_2.png
+  artifactKey: Guid(19899aa597a1f65428b322af20333209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Poker/Front/As_2.png using Guid(19899aa597a1f65428b322af20333209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8de54084f125323b54e1d6163410567') in 0.077619 seconds 
+  Import took 0.163800 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014516 seconds.
+  path: Assets/Images/Poker/Front/As_9.png
+  artifactKey: Guid(f306cc457594354428d2e87e585abd1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Poker/Front/As_9.png using Guid(f306cc457594354428d2e87e585abd1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea436c3ea71da4a70d1fb22622a644a3') in 0.651198 seconds 
+  Import took 0.722368 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.918630 seconds.
+  path: Assets/Playing Cards/Readme_Eng.txt
+  artifactKey: Guid(723a987455aeb1748a3a123526479c7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Playing Cards/Readme_Eng.txt using Guid(723a987455aeb1748a3a123526479c7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8220e9bb8d495587e3aae5413a8e42fe') in 0.041001 seconds 
+  Import took 0.058934 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 103.554128 seconds.
+  path: Assets/Images/Poker/Front/Corazon_1.png
+  artifactKey: Guid(171ac75ee95fe7a4bab364bd6463e27e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Poker/Front/Corazon_1.png using Guid(171ac75ee95fe7a4bab364bd6463e27e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbc2973a3a397e13c6b73094d7b3980d') in 0.344517 seconds 
+  Import took 0.368388 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000386 seconds.
+  path: Assets/Images/Poker/Front/Corazon_2.png
+  artifactKey: Guid(97675b8be4ba76b4ea31f0971b8e5ba9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Poker/Front/Corazon_2.png using Guid(97675b8be4ba76b4ea31f0971b8e5ba9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc859d671a9171b8152b92cdde897918') in 0.263453 seconds 
+  Import took 0.296738 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000471 seconds.
+  path: Assets/Images/Poker/Front/Corazon_10.png
+  artifactKey: Guid(73f89c15dec8b8040bb69240b0beb5d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Poker/Front/Corazon_10.png using Guid(73f89c15dec8b8040bb69240b0beb5d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12fa31a2a10a100feb3d52f53f9e4b97') in 0.270681 seconds 
+  Import took 0.348334 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000875 seconds.
+  path: Assets/Images/Poker/Front/Corazon_K.png
+  artifactKey: Guid(ca48f0df12b498a409b889597ac67b44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Poker/Front/Corazon_K.png using Guid(ca48f0df12b498a409b889597ac67b44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fca71cef73e31564a357204ad25700a7') in 1.145996 seconds 
+  Import took 1.211405 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001240 seconds.
+  path: Assets/Images/Poker/Front/Diamante_7.png
+  artifactKey: Guid(9d38000334b2d2648a435ebd4407b522) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Poker/Front/Diamante_7.png using Guid(9d38000334b2d2648a435ebd4407b522) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f35e2422fd622bbcc0bd7e6c8d7c200c') in 1.015978 seconds 
+  Import took 1.034881 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000796 seconds.
+  path: Assets/Images/Poker/Front/Diamante_5.png
+  artifactKey: Guid(89cdf81fb76a05d419cc304d46c5e310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Poker/Front/Diamante_5.png using Guid(89cdf81fb76a05d419cc304d46c5e310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '324ddd6f8aef6ec75949c42afd7ddf10') in 0.139490 seconds 
+  Import took 0.154511 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000435 seconds.
+  path: Assets/Images/Poker/Front/Corazon_3.png
+  artifactKey: Guid(feaa843f926d35e40bd5eabf62b7a9f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Poker/Front/Corazon_3.png using Guid(feaa843f926d35e40bd5eabf62b7a9f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1356fa3cb364c21c6d8a0a3298a48d5a') in 0.165791 seconds 
+  Import took 0.189806 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/Images/Poker/Front/Corazon_Q.png
+  artifactKey: Guid(7d91c3ee32b409349b21d46afafe587a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Poker/Front/Corazon_Q.png using Guid(7d91c3ee32b409349b21d46afafe587a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4ebea47ed96cfa8f3f19bfc4499bb13') in 0.167596 seconds 
+  Import took 0.359167 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/Images/Poker/Front/Corazon_9.png
+  artifactKey: Guid(d1d0a09b42e10724a9934ba62e7478f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Poker/Front/Corazon_9.png using Guid(d1d0a09b42e10724a9934ba62e7478f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d529a9488d1109103e536c958f53d27') in 0.232260 seconds 
+  Import took 0.262490 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000468 seconds.
+  path: Assets/Images/Poker/Front/Diamante_3.png
+  artifactKey: Guid(d1e07d48941b269438aa0bfcdd93b89d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Poker/Front/Diamante_3.png using Guid(d1e07d48941b269438aa0bfcdd93b89d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf4506af35083f00dd9771aa5c4a5777') in 0.171716 seconds 
+  Import took 0.201893 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000549 seconds.
+  path: Assets/Images/Poker/Front/Diamante_4.png
+  artifactKey: Guid(40bcc2ec6b166ae47808c237f44b247d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Poker/Front/Diamante_4.png using Guid(40bcc2ec6b166ae47808c237f44b247d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a31ce6974a55f808713191e1f76b33cf') in 0.985841 seconds 
+  Import took 1.000315 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000450 seconds.
+  path: Assets/Images/Poker/Front/Trebol_7.png
+  artifactKey: Guid(f8cc9f65f6f45444cbf4b3a2e5102001) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Poker/Front/Trebol_7.png using Guid(f8cc9f65f6f45444cbf4b3a2e5102001) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b55b1721fd4ea9b4232dc7c14c72bc08') in 0.181548 seconds 
+  Import took 0.203418 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000777 seconds.
+  path: Assets/Images/Poker/Front/Diamante_8.png
+  artifactKey: Guid(c446f9fb351de2048a56d29a1fc52449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Poker/Front/Diamante_8.png using Guid(c446f9fb351de2048a56d29a1fc52449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd108499b0c68870896f700ad68b8b55d') in 0.249969 seconds 
+  Import took 0.267864 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000423 seconds.
+  path: Assets/Images/Poker/Front/Diamante_2.png
+  artifactKey: Guid(e6463c20603837e4ba109cadd8469635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Poker/Front/Diamante_2.png using Guid(e6463c20603837e4ba109cadd8469635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4534fd4f3b402daf50d6ffce30deb89') in 0.186820 seconds 
+  Import took 0.250469 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000630 seconds.
+  path: Assets/Images/Poker/Front/Diamante_6.png
+  artifactKey: Guid(0a9c4fad778bebc40860f33a8927dc41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Poker/Front/Diamante_6.png using Guid(0a9c4fad778bebc40860f33a8927dc41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98ffbcdb92496ff7dbf84020dd2043e1') in 0.670645 seconds 
+  Import took 0.715776 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000370 seconds.
+  path: Assets/Images/Poker/Front/Corazon_8.png
+  artifactKey: Guid(9b5e2bd503dad5345a685c1e11c428fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Poker/Front/Corazon_8.png using Guid(9b5e2bd503dad5345a685c1e11c428fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bad173f8d4d53e4249122b325956b6b7') in 0.963065 seconds 
+  Import took 0.988823 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001665 seconds.
+  path: Assets/Images/Poker/Front/Diamante_10.png
+  artifactKey: Guid(dbda9ec3daab7fa4ca381a35f6f05e0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Poker/Front/Diamante_10.png using Guid(dbda9ec3daab7fa4ca381a35f6f05e0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59f91604e3711fd5030b7837097473d3') in 0.215773 seconds 
+  Import took 0.231144 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000411 seconds.
+  path: Assets/Images/Poker/Front/Trebol_5.png
+  artifactKey: Guid(2f75dc9ba136e0c44a32300b5e0bbcbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Poker/Front/Trebol_5.png using Guid(2f75dc9ba136e0c44a32300b5e0bbcbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5aad4edc8f4ed5a48cf71700e61a11b7') in 0.178326 seconds 
+  Import took 0.209079 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001193 seconds.
+  path: Assets/Images/Poker/Front/Trebol_4.png
+  artifactKey: Guid(e2c3adab8e2f0684cb19076f6a31bd75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Poker/Front/Trebol_4.png using Guid(e2c3adab8e2f0684cb19076f6a31bd75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f86c01f03606dd9711bf5a2c4bbd772') in 0.174449 seconds 
+  Import took 0.186571 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000478 seconds.
+  path: Assets/Images/Poker/Front/Corazon_5.png
+  artifactKey: Guid(098bf0049c2800040b613a4c7472f646) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Poker/Front/Corazon_5.png using Guid(098bf0049c2800040b613a4c7472f646) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa13976b705878a72f81d972b7d731ae') in 0.183221 seconds 
+  Import took 0.204117 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012413 seconds.
+  path: Assets/Images/Poker/Front/Diamante_1.png
+  artifactKey: Guid(635414afb2f30b944b50a66216361a25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Poker/Front/Diamante_1.png using Guid(635414afb2f30b944b50a66216361a25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6340c9828713f692907c4d83b90266e0') in 0.238071 seconds 
+  Import took 0.265782 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000844 seconds.
+  path: Assets/Images/Poker/Front/Corazon_J.png
+  artifactKey: Guid(0da6dd39c9901b347979523df86584dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Poker/Front/Corazon_J.png using Guid(0da6dd39c9901b347979523df86584dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '658367486111f288e3e2ccd21c43194f') in 0.192393 seconds 
+  Import took 0.218326 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000343 seconds.
+  path: Assets/Images/Poker/Front/Trebol_6.png
+  artifactKey: Guid(3e6f64c78ce84c94aa873753e113b94e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Poker/Front/Trebol_6.png using Guid(3e6f64c78ce84c94aa873753e113b94e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fb78e00753d8248c5a16e2b966060e2') in 0.978665 seconds 
+  Import took 1.020383 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001027 seconds.
+  path: Assets/Images/Poker/Front/Diamante_9.png
+  artifactKey: Guid(66a57d48d213e794baee15e555856518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Poker/Front/Diamante_9.png using Guid(66a57d48d213e794baee15e555856518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02ab454e48832b2d75a7066f2d4665b3') in 0.527660 seconds 
+  Import took 0.538293 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/Images/Poker/Front/Corazon_4.png
+  artifactKey: Guid(6af7eb9403e05b648bca03c394dc9ad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Poker/Front/Corazon_4.png using Guid(6af7eb9403e05b648bca03c394dc9ad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab33f553d0f3f614c11525c47b83a88f') in 0.163664 seconds 
+  Import took 0.184886 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Images/Poker/Front/Corazon_6.png
+  artifactKey: Guid(0706052feed38d349814f1a292b4b172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Poker/Front/Corazon_6.png using Guid(0706052feed38d349814f1a292b4b172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '528945d41040ddb690f6608655473a2c') in 0.233211 seconds 
+  Import took 0.261382 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005859 seconds.
+  path: Assets/Images/Poker/Front/Corazon_7.png
+  artifactKey: Guid(c721da0af8b57f245a938132fb3ef465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Poker/Front/Corazon_7.png using Guid(c721da0af8b57f245a938132fb3ef465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0409baa6237ced3d9a81c4e1a0c2b1b') in 0.301889 seconds 
+  Import took 0.315742 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003172 seconds.
+  path: Assets/Images/Poker/Front/Diamante_J.png
+  artifactKey: Guid(dada49eb10350da4f83fd4c173d452aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Poker/Front/Diamante_J.png using Guid(dada49eb10350da4f83fd4c173d452aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '632c1bafae6761ef9b604e4d6ce1a9a1') in 0.169297 seconds 
+  Import took 0.181923 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.515798 seconds.
+  path: Assets/Images/Poker/Front/Trebol_8.png
+  artifactKey: Guid(fc957ebe303540c44993907200469aff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Poker/Front/Trebol_8.png using Guid(fc957ebe303540c44993907200469aff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ace5a5b5e7fd024d510825ba1ffa00fa') in 0.110209 seconds 
+  Import took 0.128850 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000509 seconds.
+  path: Assets/Images/Poker/Front/Trebol_9.png
+  artifactKey: Guid(549213396dc9e1844be458d776a7413e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Poker/Front/Trebol_9.png using Guid(549213396dc9e1844be458d776a7413e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '480e6547733a92e6c4f20557adaf3f04') in 0.239871 seconds 
+  Import took 0.258478 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.108298 seconds.
+  path: Assets/Images/Poker/Front/Trebol_10.png
+  artifactKey: Guid(0b4bfa5e9f5182d4bb0aa18e6d0a9a6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Poker/Front/Trebol_10.png using Guid(0b4bfa5e9f5182d4bb0aa18e6d0a9a6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32cd7a88983e77bb53ad5b0788c3d465') in 0.144161 seconds 
+  Import took 0.178290 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000351 seconds.
+  path: Assets/Images/Poker/Front/Trebol_J.png
+  artifactKey: Guid(448166ee54db33c46a2aabbcb7b9b4ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Poker/Front/Trebol_J.png using Guid(448166ee54db33c46a2aabbcb7b9b4ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '428b82bc6a4e8c2cfd413d230fadde37') in 0.235099 seconds 
+  Import took 0.356960 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.404843 seconds.
+  path: Assets/Images/Poker/Front/Trebol_K.png
+  artifactKey: Guid(ffb0902c8208c654187159b7c835b5ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Poker/Front/Trebol_K.png using Guid(ffb0902c8208c654187159b7c835b5ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e88f51d12f7f8945928c553dc07a6094') in 0.163892 seconds 
+  Import took 0.208194 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000385 seconds.
+  path: Assets/Images/Poker/Front/Trebol_Q.png
+  artifactKey: Guid(2ac21d13e375ff74691ab0e739906dd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Poker/Front/Trebol_Q.png using Guid(2ac21d13e375ff74691ab0e739906dd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd506fd81ea42b39fb845291968ddfaf1') in 0.218729 seconds 
+  Import took 0.289937 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.797779 seconds.
+  path: Assets/Images/Poker/Front/Diamante_K.png
+  artifactKey: Guid(0a0194197467cbf49a421e73712b93cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Poker/Front/Diamante_K.png using Guid(0a0194197467cbf49a421e73712b93cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a866531cb09be0f8d040b0dee2aa7e36') in 0.152654 seconds 
+  Import took 0.207542 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000389 seconds.
+  path: Assets/Images/Poker/Front/Diamante_Q.png
+  artifactKey: Guid(9a7b955b4c8570b4b8bfd696e5f5e232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Poker/Front/Diamante_Q.png using Guid(9a7b955b4c8570b4b8bfd696e5f5e232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5012262f84b64823f5f911cbacc28dc') in 0.132759 seconds 
+  Import took 0.168436 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 147.026263 seconds.
+  path: Assets/Prefabs/CardBtn.prefab
+  artifactKey: Guid(c060427897c0b074b8b234feb7dafc4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CardBtn.prefab using Guid(c060427897c0b074b8b234feb7dafc4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5507cc5175cd7e1e756cc9afb6d285e4') in 0.526884 seconds 
+  Import took 0.536478 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.023847 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.60 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in 11.012 seconds
+Domain Reload Profiling:
+	ReloadAssembly (11016ms)
+		BeginReloadAssembly (1388ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (107ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (621ms)
+		EndReloadAssembly (9007ms)
+			LoadAssemblies (1057ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (3365ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (795ms)
+			SetupLoadedEditorAssemblies (2512ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (42ms)
+				SetLoadedEditorAssemblies (3ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (873ms)
+				ProcessInitializeOnLoadAttributes (1469ms)
+				ProcessInitializeOnLoadMethodAttributes (56ms)
+				AfterProcessingInitializeOnLoad (66ms)
+				EditorAssembliesLoaded (2ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (54ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.09 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2193 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.5 MB.
+System memory in use after: 98.6 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2654.
+Total: 12.271300 ms (FindLiveObjects: 0.530600 ms CreateObjectMapping: 0.821600 ms MarkObjects: 10.870300 ms  DeleteObjects: 0.044900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.017903 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in 13.632 seconds
+Domain Reload Profiling:
+	ReloadAssembly (13634ms)
+		BeginReloadAssembly (1170ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (84ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (1ms)
+			CreateAndSetChildDomain (340ms)
+		EndReloadAssembly (11317ms)
+			LoadAssemblies (1268ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (3500ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (485ms)
+			SetupLoadedEditorAssemblies (5516ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (32ms)
+				SetLoadedEditorAssemblies (11ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (2032ms)
+				ProcessInitializeOnLoadAttributes (3220ms)
+				ProcessInitializeOnLoadMethodAttributes (125ms)
+				AfterProcessingInitializeOnLoad (80ms)
+				EditorAssembliesLoaded (13ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (150ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.31 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2193 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.5 MB.
+System memory in use after: 98.7 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2657.
+Total: 20.109900 ms (FindLiveObjects: 1.226500 ms CreateObjectMapping: 0.509000 ms MarkObjects: 8.921400 ms  DeleteObjects: 9.448400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.047401 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.75 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  6.978 seconds
+Domain Reload Profiling:
+	ReloadAssembly (6984ms)
+		BeginReloadAssembly (941ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (58ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (228ms)
+		EndReloadAssembly (5500ms)
+			LoadAssemblies (1021ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1976ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (289ms)
+			SetupLoadedEditorAssemblies (1905ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (28ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (539ms)
+				ProcessInitializeOnLoadAttributes (1185ms)
+				ProcessInitializeOnLoadMethodAttributes (83ms)
+				AfterProcessingInitializeOnLoad (64ms)
+				EditorAssembliesLoaded (2ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (106ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 7.29 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2193 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.6 MB.
+System memory in use after: 98.7 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2660.
+Total: 6.269800 ms (FindLiveObjects: 0.906300 ms CreateObjectMapping: 0.299700 ms MarkObjects: 5.024300 ms  DeleteObjects: 0.037100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 968.221363 seconds.
+  path: Assets/Script/Card/FrontPokerDB.asset
+  artifactKey: Guid(6ef83ff9ab258f84d8d4836379c84080) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/Card/FrontPokerDB.asset using Guid(6ef83ff9ab258f84d8d4836379c84080) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfa814ea5bac48fdd37fd76fac76da48') in 0.292265 seconds 
+  Import took 0.326771 seconds .
+
