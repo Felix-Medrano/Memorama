@@ -4,16 +4,32 @@ using UnityEngine;
 
 public class FlipCard : MonoBehaviour
 {
-    public Transform card;
 
-    int rotY = 0;
+    Animator animator;
+    bool backSide = true;
+
+    private void Start()
+    {
+        animator = GetComponent<Animator>();
+    }
 
     public void Flip()
     {
+        string animacion = "";
 
-        //TODO: Hacer codigo para que rote gradualmente, no de golpe
-        rotY = rotY == 0 ? 180 : 0;
-        card.rotation = new Quaternion(0, rotY, 0, 0);
+        if (backSide)
+        {
+            backSide = false;
+            animacion = "FlipBackFront";
+        }
+        else
+        {
+            backSide = true;
+            animacion = "FlipFrontBack";
+        }
+
+        animator.Play(animacion);
+
     }
     
 }

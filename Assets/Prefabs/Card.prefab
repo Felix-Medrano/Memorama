@@ -91,7 +91,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8403468658705114192}
-  - component: {fileID: 5287218075674756246}
+  - component: {fileID: 7418349625370822366}
+  - component: {fileID: 6040313422504337648}
   m_Layer: 0
   m_Name: Card
   m_TagString: Untagged
@@ -108,14 +109,14 @@ Transform:
   m_GameObject: {fileID: 3142159305080412017}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 108, y: 108, z: 108}
   m_Children:
   - {fileID: 5371855574561910044}
   - {fileID: 7587133518116863386}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &5287218075674756246
+--- !u!114 &7418349625370822366
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -124,15 +125,28 @@ MonoBehaviour:
   m_GameObject: {fileID: 3142159305080412017}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cc0a67b60e4b1f44a98fafbf994d12bd, type: 3}
+  m_Script: {fileID: 11500000, guid: 475bf9361c04b0f47b52bcc721ae41cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  imgFrontPokerDB: {fileID: 11400000, guid: 6ef83ff9ab258f84d8d4836379c84080, type: 2}
-  imgBackPokerDB: {fileID: 11400000, guid: b46c433bfb054ba4f95ebf7f99c25d25, type: 2}
-  imgFront: {fileID: 7487267552346771495}
-  imgBack: {fileID: 1923154029966500883}
-  idFront: 0
-  idBack: 0
+--- !u!95 &6040313422504337648
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3142159305080412017}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 53ef58774360e054d84fa15b34899ade, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &4502722369498078232
 GameObject:
   m_ObjectHideFlags: 0
@@ -235,7 +249,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: f8cc9f65f6f45444cbf4b3a2e5102001, type: 3}
+  m_Sprite: {fileID: 21300000, guid: aa3db91d2b8a0814c8aab1d8f27c3053, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

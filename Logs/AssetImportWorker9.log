@@ -9,17 +9,17 @@ C:\Users\sckro\Desktop\Proyectos\Unity\2020.3.25f1\Editor\Unity.exe
 -batchMode
 -noUpm
 -name
-AssetImportWorker2
+AssetImportWorker9
 -projectPath
 C:/Users/sckro/Desktop/Proyectos/Unity/Memorama
 -logFile
-Logs/AssetImportWorker2.log
+Logs/AssetImportWorker9.log
 -srvPort
-1160
+1034
 Successfully changed project path to: C:/Users/sckro/Desktop/Proyectos/Unity/Memorama
 C:/Users/sckro/Desktop/Proyectos/Unity/Memorama
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 1918.06 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 624.50 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.25f1 (9b9180224418)
 [Subsystems] Discovering subsystems at path C:/Users/sckro/Desktop/Proyectos/Unity/2020.3.25f1/Editor/Data/Resources/UnitySubsystems
