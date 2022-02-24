@@ -24,7 +24,12 @@ public class PanelController : MonoBehaviour
     public Transform panelBtns;
     public CardController cardController;
 
+    //Lista para no mostrar cartas repetidas
+    List<int> idCardSelect = new List<int>();
 
+    //Lista para mostrar las cartas en Random
+    List<int> listCardTemp = new List<int>();
+    List<int> listCardShow = new List<int>();
 
     // Start is called before the first frame update
     void Start()
@@ -34,8 +39,11 @@ public class PanelController : MonoBehaviour
 
     public void SetParCard()
     {
+
+        
         int numRep = 0;
         int id = Random.Range(0, (cardController.imgFrontPokerDB.frontPokerImgs.Length));
+        idCardSelect.Add(id);
 
         if (dificultad == Dificultad.Facil)
         {
@@ -50,18 +58,57 @@ public class PanelController : MonoBehaviour
             numCard = 24;
         }
 
+        //Definimos las cartas a Mostrar
         for (int i = 0; i < numCard; i++)
         {
             if (numRep == 2)
             {
-                //TODO: Ciclo apra evitar cartas repetidas, pool de cartas ya seleccionadas(se manejara el 'id' como key)
-                id = Random.Range(0, (cardController.imgFrontPokerDB.frontPokerImgs.Length));
+                bool check;
+                do
+                {
+                    id = Random.Range(0, (cardController.imgFrontPokerDB.frontPokerImgs.Length));
+                    check = CheckCardId(id, idCardSelect.Count, idCardSelect);
+
+                } while (check == true);
+                idCardSelect.Add(id);
                 numRep = 0;
             }
-            GameObject btnCard = Instantiate(botonCartaPrefab, panelBtns);
-            btnCard.GetComponent<CardController>().SetImgFrontCard(id);
+            listCardTemp.Add(id);
             
             numRep++;
         }
+
+        //Damos el Random a las cartas para mostrar
+
+        
+        for (int j = 0; j < numCard; j++)
+        {
+
+            int rnd = Random.Range(0, listCardTemp.Count);
+            listCardShow.Add(listCardTemp[rnd]);
+            listCardTemp.RemoveAt(rnd);
+        }
+
+        for (int i = 0; i < listCardShow.Count; i++)
+        {
+            GameObject btnCard = Instantiate(botonCartaPrefab, panelBtns);
+            btnCard.GetComponent<CardController>().SetImgFrontCard(listCardShow[i]);
+        }
+
+    }
+
+    bool CheckCardId(int id, int n, List<int> vs)
+    {
+        bool check = false;
+        for (int j = 0; j < n; j++)
+        {
+            if (vs[j] == id)
+            {
+                check = true;
+                return check;
+            }
+        }   
+        
+        return check;
     }
 }
