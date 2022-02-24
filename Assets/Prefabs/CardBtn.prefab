@@ -134,6 +134,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 8495707867987585707}
+        m_TargetAssemblyTypeName: CardController, Assembly-CSharp
+        m_MethodName: CallPair
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &8495707867987585707
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -146,6 +158,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cc0a67b60e4b1f44a98fafbf994d12bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cardID: 0
+  gameController: {fileID: 0}
   imgFrontPokerDB: {fileID: 11400000, guid: 6ef83ff9ab258f84d8d4836379c84080, type: 2}
   imgBackPokerDB: {fileID: 11400000, guid: b46c433bfb054ba4f95ebf7f99c25d25, type: 2}
   imgFront: {fileID: 6323026043525561388}
