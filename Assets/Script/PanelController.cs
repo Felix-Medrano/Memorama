@@ -33,9 +33,9 @@ public class PanelController : MonoBehaviour
     List<int> listCardTemp = new List<int>();
     List<int> listCardShow = new List<int>();
 
-   
-    
-    
+    //Lista para guardar las Cartas y poder trabajar con los objetos
+    [HideInInspector]
+    public List<GameObject> cards;
     
     void Start()
     {
@@ -44,12 +44,9 @@ public class PanelController : MonoBehaviour
 
     public void SetParCard()
     {
-
-        
         int numRep = 0;
         int id = Random.Range(0, (cardController.imgFrontPokerDB.frontPokerImgs.Length));
         idCardSelect.Add(id);
-
 
         //TODO: Cambiar la dificultad a UI
         if (dificultad == Dificultad.Facil) numCard = 8;
@@ -66,7 +63,6 @@ public class PanelController : MonoBehaviour
                 {
                     id = Random.Range(0, (cardController.imgFrontPokerDB.frontPokerImgs.Length));
                     check = CheckCardId(id, idCardSelect.Count, idCardSelect);
-
                 } while (check == true);
                 idCardSelect.Add(id);
                 numRep = 0;
@@ -89,11 +85,9 @@ public class PanelController : MonoBehaviour
             GameObject btnCard = Instantiate(botonCartaPrefab, panelBtns);
             btnCard.GetComponent<CardController>().SetImgFrontCard(listCardShow[i]);
             btnCard.GetComponent<CardController>().cardID = listCardShow[i];
-            
+            cards.Add(btnCard);
         }
-
     }
-
 
     /// <summary>
     /// Hace un rrecorrido en la lista de designada para comprobar si ya eciste el id

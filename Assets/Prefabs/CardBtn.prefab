@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 7418349626901163364}
   - component: {fileID: 7418349626901163367}
   - component: {fileID: 8495707867987585707}
+  - component: {fileID: 9069106144582166867}
   m_Layer: 5
   m_Name: CardBtn
   m_TagString: Untagged
@@ -122,7 +123,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 6243322975722089173}
+      - m_Target: {fileID: 9069106144582166867}
         m_TargetAssemblyTypeName: FlipCard, Assembly-CSharp
         m_MethodName: Flip
         m_Mode: 1
@@ -164,6 +165,19 @@ MonoBehaviour:
   imgBackPokerDB: {fileID: 11400000, guid: b46c433bfb054ba4f95ebf7f99c25d25, type: 2}
   imgFront: {fileID: 6323026043525561388}
   imgBack: {fileID: 3091601169690249240}
+--- !u!114 &9069106144582166867
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7418349626901163385}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 475bf9361c04b0f47b52bcc721ae41cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 7170990144293915899}
 --- !u!1001 &3483526086473706507
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -193,7 +207,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8403468658705114192, guid: f72a89b54efbd5c4f825fc8e6e2520d0, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8403468658705114192, guid: f72a89b54efbd5c4f825fc8e6e2520d0, type: 3}
       propertyPath: m_LocalRotation.x
@@ -201,7 +215,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8403468658705114192, guid: f72a89b54efbd5c4f825fc8e6e2520d0, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8403468658705114192, guid: f72a89b54efbd5c4f825fc8e6e2520d0, type: 3}
       propertyPath: m_LocalRotation.z
@@ -213,15 +227,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8403468658705114192, guid: f72a89b54efbd5c4f825fc8e6e2520d0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
+      value: 180
       objectReference: {fileID: 0}
     - target: {fileID: 8403468658705114192, guid: f72a89b54efbd5c4f825fc8e6e2520d0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8845277027336390616, guid: f72a89b54efbd5c4f825fc8e6e2520d0, type: 3}
-      propertyPath: m_RootOrder
-      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f72a89b54efbd5c4f825fc8e6e2520d0, type: 3}
@@ -230,17 +240,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8403468658705114192, guid: f72a89b54efbd5c4f825fc8e6e2520d0, type: 3}
   m_PrefabInstance: {fileID: 3483526086473706507}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &6243322975722089173 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 7418349625370822366, guid: f72a89b54efbd5c4f825fc8e6e2520d0, type: 3}
+--- !u!95 &7170990144293915899 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 6040313422504337648, guid: f72a89b54efbd5c4f825fc8e6e2520d0, type: 3}
   m_PrefabInstance: {fileID: 3483526086473706507}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 475bf9361c04b0f47b52bcc721ae41cd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!212 &6323026043525561388 stripped
 SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 7487267552346771495, guid: f72a89b54efbd5c4f825fc8e6e2520d0, type: 3}

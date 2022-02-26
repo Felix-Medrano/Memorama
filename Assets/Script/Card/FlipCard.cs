@@ -5,13 +5,8 @@ using UnityEngine;
 public class FlipCard : MonoBehaviour
 {
 
-    Animator animator;
+    public Animator animator;
     bool backSide = true;
-
-    private void Start()
-    {
-        animator = GetComponent<Animator>();
-    }
 
     public void Flip()
     {
