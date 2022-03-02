@@ -15,11 +15,12 @@ C:/Users/sckro/Desktop/Proyectos/Unity/Memorama
 -logFile
 Logs/AssetImportWorker50.log
 -srvPort
-4197
+1034
 Successfully changed project path to: C:/Users/sckro/Desktop/Proyectos/Unity/Memorama
 C:/Users/sckro/Desktop/Proyectos/Unity/Memorama
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 215.18 ms, found 3 plugins.
+Unable to join player connection multicast group.
+Refreshing native plugins compatible for Editor in 3525.52 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.25f1 (9b9180224418)
 [Subsystems] Discovering subsystems at path C:/Users/sckro/Desktop/Proyectos/Unity/2020.3.25f1/Editor/Data/Resources/UnitySubsystems
@@ -35,45 +36,5 @@ Initialize mono
 Mono path[0] = 'C:/Users/sckro/Desktop/Proyectos/Unity/2020.3.25f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Users/sckro/Desktop/Proyectos/Unity/2020.3.25f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Users/sckro/Desktop/Proyectos/Unity/2020.3.25f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56228
-Begin MonoManager ReloadAssembly
-Registering precompiled unity dll's ...
-Register platform support module: C:/Users/sckro/Desktop/Proyectos/Unity/2020.3.25f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: C:/Users/sckro/Desktop/Proyectos/Unity/2020.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.016304 seconds.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1787.61 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  9.970 seconds
-Domain Reload Profiling:
-	ReloadAssembly (9973ms)
-		BeginReloadAssembly (504ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (0ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (5ms)
-		EndReloadAssembly (9063ms)
-			LoadAssemblies (507ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (802ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (789ms)
-			SetupLoadedEditorAssemblies (4903ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (348ms)
-				SetLoadedEditorAssemblies (39ms)
-				RefreshPlugins (1788ms)
-				BeforeProcessingInitializeOnLoad (230ms)
-				ProcessInitializeOnLoadAttributes (1607ms)
-				ProcessInitializeOnLoadMethodAttributes (885ms)
-				AfterProcessingInitializeOnLoad (0ms)
-				EditorAssembliesLoaded (7ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (0ms)
-Platform modules already initialized, skipping
-Registering precompiled user dll's ...
-Registered in 0.079584 seconds.
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56364
 Begin MonoManager ReloadAssembly

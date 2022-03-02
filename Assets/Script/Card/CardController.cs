@@ -5,7 +5,7 @@ using UnityEngine;
 public class CardController : MonoBehaviour
 {
 
-    [HideInInspector]
+    //[HideInInspector]
     public int cardID;
 
     [Header("Componentes Externos")]

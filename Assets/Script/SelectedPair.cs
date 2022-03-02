@@ -14,8 +14,9 @@ public class SelectedPair : MonoBehaviour
 
     int firstID = -1;
     int secondID = -1;
-
     int cantCardSelected = 0;
+
+    public List<int> cardOk = new List<int>();
 
     private void Start()
     {
@@ -75,8 +76,11 @@ public class SelectedPair : MonoBehaviour
         firstCard.transform.GetChild(0).gameObject.SetActive(false);
         secondCard.transform.GetChild(0).gameObject.SetActive(false);
         DisableButtons(panelController.cards, true);
-        firstCard.GetComponent<Button>().enabled = false;
-        secondCard.GetComponent<Button>().enabled = false;
+        //firstCard.GetComponent<Button>().enabled = false;
+        //secondCard.GetComponent<Button>().enabled = false;
+        cardOk.Add(firstCard.GetComponent<CardController>().cardID);
+        DelCardOk(panelController.cards, cardOk);
+
     }
 
     /// <summary>
@@ -91,6 +95,8 @@ public class SelectedPair : MonoBehaviour
         firstCard.GetComponent<FlipCard>().Flip();
         secondCard.GetComponent<FlipCard>().Flip();
         DisableButtons(panelController.cards, true);
+        DelCardOk(panelController.cards, cardOk);
+
     }
 
     /// <summary>
@@ -103,6 +109,27 @@ public class SelectedPair : MonoBehaviour
         for (int i = 0; i < cards.Count; i++)
         {
             cards[i].GetComponent<Button>().enabled = state;
+        }
+    }
+
+    public void DelCardOk(List<GameObject> cards, List<int> cardsOk)
+    {
+        print("a");
+        for (int i = 0 ; i < cards.Count; i++)
+        {
+            print("b");
+            for (int j = 0; j < cardsOk.Count; j++)
+            {
+                print("c"); 
+                    print($"Card {i}: {cards[i].GetComponent<CardController>().cardID} - OkCard: {cardOk[j]}"); 
+                if (cards[i].GetComponent<CardController>().cardID == cardsOk[j])
+                {
+
+                    cards[i].GetComponent<Button>().enabled = false;
+                    print($"Card {i}: {cards[i].GetComponent<CardController>().cardID} - OkCard: {cardOk[j]}"); 
+                }
+
+            }
         }
     }
 }

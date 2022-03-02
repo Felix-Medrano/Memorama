@@ -9,14 +9,11 @@ C:\Users\sckro\Desktop\Proyectos\Unity\2020.3.25f1\Editor\Unity.exe
 -batchMode
 -noUpm
 -name
-AssetImportWorker31
+AssetImportWorker1
 -projectPath
 C:/Users/sckro/Desktop/Proyectos/Unity/Memorama
 -logFile
-Logs/AssetImportWorker31.log
+Logs/AssetImportWorker1.log
 -srvPort
 1034
 Successfully changed project path to: C:/Users/sckro/Desktop/Proyectos/Unity/Memorama
-C:/Users/sckro/Desktop/Proyectos/Unity/Memorama
-Using Asset Import Pipeline V2.
-Unable to join player connection multicast group.

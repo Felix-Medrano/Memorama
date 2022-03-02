@@ -9,18 +9,18 @@ C:\Users\sckro\Desktop\Proyectos\Unity\2020.3.25f1\Editor\Unity.exe
 -batchMode
 -noUpm
 -name
-AssetImportWorker20
+AssetImportWorker0
 -projectPath
 C:/Users/sckro/Desktop/Proyectos/Unity/Memorama
 -logFile
-Logs/AssetImportWorker20.log
+Logs/AssetImportWorker0.log
 -srvPort
 1034
 Successfully changed project path to: C:/Users/sckro/Desktop/Proyectos/Unity/Memorama
 C:/Users/sckro/Desktop/Proyectos/Unity/Memorama
 Using Asset Import Pipeline V2.
 Unable to join player connection multicast group.
-Refreshing native plugins compatible for Editor in 3431.69 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 187.89 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.25f1 (9b9180224418)
 [Subsystems] Discovering subsystems at path C:/Users/sckro/Desktop/Proyectos/Unity/2020.3.25f1/Editor/Data/Resources/UnitySubsystems
@@ -36,5 +36,9 @@ Initialize mono
 Mono path[0] = 'C:/Users/sckro/Desktop/Proyectos/Unity/2020.3.25f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Users/sckro/Desktop/Proyectos/Unity/2020.3.25f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Users/sckro/Desktop/Proyectos/Unity/2020.3.25f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56496
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56124
 Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Users/sckro/Desktop/Proyectos/Unity/2020.3.25f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Users/sckro/Desktop/Proyectos/Unity/2020.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.066815 seconds.
