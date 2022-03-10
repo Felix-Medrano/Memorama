@@ -406,6 +406,7 @@ MonoBehaviour:
   botonCartaPrefab: {fileID: 7418349626901163385, guid: c060427897c0b074b8b234feb7dafc4b, type: 3}
   panelBtns: {fileID: 1870537832}
   cardController: {fileID: 8495707867987585707, guid: c060427897c0b074b8b234feb7dafc4b, type: 3}
+  cards: []
 --- !u!4 &1061471140
 Transform:
   m_ObjectHideFlags: 0
@@ -432,6 +433,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9db93e102f37496428530a5eeca06666, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cardOk: 
 --- !u!1 &1870537831
 GameObject:
   m_ObjectHideFlags: 0
